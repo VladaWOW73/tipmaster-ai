@@ -28,15 +28,23 @@ pip install -r requirements.txt
 
 ### 3. Set Up Environment Variables
 
-Create a `.env` file in the root directory:
+Copy `.env.example` to `.env` and fill in your actual values:
+
+```bash
+cp .env.example .env
+```
+
+Then edit `.env` and add your API keys:
 
 ```bash
 # Required
-OPENAI_API_KEY=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
+OPENAI_API_KEY=your_openai_api_key_here
 
 # Optional - Add any additional API keys your agents need
 # EXAMPLE_API_KEY=your_api_key_here
 ```
+
+**For Agencii.ai Deployment**: The `.env.example` file documents required environment variables. Configure these in your Agencii.ai dashboard when deploying.
 
 ### 4. Test the Example Agency
 
