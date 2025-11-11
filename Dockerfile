@@ -12,4 +12,4 @@ RUN pip install --upgrade pip && \
 
 COPY . .
 
-CMD python -u main.py
+CMD ["python3", "/app/main.py"]
