@@ -1,4 +1,1 @@
-agency-swarm[fastapi]>=1.2.1
-fastapi
-uvicorn
 openai>=1.0.0
