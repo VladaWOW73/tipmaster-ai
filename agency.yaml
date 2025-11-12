@@ -6,3 +6,7 @@ start:
 
 ready:
   command: curl -f http://localhost:8000/health || exit 1
+
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
