@@ -1,1 +1,4 @@
+agency-swarm[fastapi]>=1.2.1
 openai>=1.0.0
+uvicorn
+python-dotenv
