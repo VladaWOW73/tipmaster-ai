@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from agency_swarm import Agency
 
-from TIPMASTERAI import tipmaster_ai
+from tipmaster_ai import tipmaster_ai
 
 import asyncio
 
